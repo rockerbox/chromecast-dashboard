@@ -2,8 +2,8 @@
  * Main JavaScript for handling Chromecast interactions.
  */
 
-var applicationID = 'F7FD2183';
-var namespace = 'urn:x-cast:com.boombatower.chromecast-dashboard';
+var applicationID = '47E1A008';
+var namespace = 'urn:x-cast:com.rockerbox.chromecast-dashboard';
 var session = null;
 
 if (!chrome.cast || !chrome.cast.isAvailable) {
