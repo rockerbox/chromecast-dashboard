@@ -58,7 +58,9 @@ function sessionUpdateListener(isAlive) {
 
 function receiverListener(e) {
   if (e !== 'available') {
-    alert('No Chromecast receivers available');
+    console.log('No Chromecast receivers available');
+    console.log(e);
+    console.log(arguments);
   }
 }
 
